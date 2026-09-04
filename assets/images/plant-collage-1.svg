@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 520">
+<rect width="800" height="520" fill="#cfe7c7"/>
+<circle cx="650" cy="130" r="95" fill="#b8d89f" opacity=".65"/>
+<circle cx="130" cy="420" r="150" fill="#b8d89f" opacity=".45"/>
+<path d="M390 450 C330 350 340 220 430 90 C470 180 475 310 430 450" fill="#4f8c58"/>
+<path d="M410 340 C500 260 590 270 660 330 C560 390 475 380 410 340" fill="#6cae70"/>
+<path d="M390 360 C300 280 220 290 145 355 C240 400 325 400 390 360" fill="#76b878"/>
+<text x="50" y="75" font-family="Arial" font-size="40" font-weight="700" fill="#245333">Fresh Greens</text>
+<text x="50" y="115" font-family="Arial" font-size="22" fill="#245333">Houseplants for every corner.</text>
+</svg>
