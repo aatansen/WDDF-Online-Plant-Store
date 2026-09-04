@@ -1,98 +1,134 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Blooming Oasis | Products</title>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css" rel="stylesheet">
-    <link rel="stylesheet" href="assets/css/style.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Blooming Oasis - Products</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="assets/css/style.css">
 </head>
+
 <body>
-<nav class="navbar navbar-expand-lg navbar-dark custom-navbar">
-    <div class="container-fluid">
-        <a class="navbar-brand fw-bold" href="index.html"><i class="bi bi-flower1"></i> Blooming Oasis</a>
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mainNav"><span class="navbar-toggler-icon"></span></button>
-        <div class="collapse navbar-collapse" id="mainNav">
-            <ul class="navbar-nav ms-auto">
-                <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
-                <li class="nav-item"><a class="nav-link active" href="products.html">Products</a></li>
-                <li class="nav-item"><a class="nav-link" href="about.html">About Us</a></li>
-                <li class="nav-item"><a class="nav-link" href="contact.html">Contact Us</a></li>
-            </ul>
-        </div>
-    </div>
-</nav>
-<div class="datetime-bar"><span id="dateTime"></span></div>
-
-<header class="page-header"><div class="container"><p class="hero-kicker">OUR PLANTS</p><h1>Find Your Green Companion</h1><p>Explore easy-care favorites and tropical statement plants.</p></div></header>
-
-<section class="py-5">
-<div class="container">
-<div class="row g-4">
-    <div class="col-md-6 col-lg-4"><div class="card plant-card h-100"><img src="assets/images/monstera.svg" class="card-img-top" alt="Monstera"><div class="card-body"><h4>Monstera Deliciosa</h4><p>Our featured tropical plant.</p><strong>$29.99</strong></div></div></div>
-    <div class="col-md-6 col-lg-4"><div class="card plant-card h-100"><img src="assets/images/snake-plant.svg" class="card-img-top" alt="Snake Plant"><div class="card-body"><h4>Snake Plant</h4><p>Excellent for beginners.</p><strong>$19.99</strong></div></div></div>
-    <div class="col-md-6 col-lg-4"><div class="card plant-card h-100"><img src="assets/images/peace-lily.svg" class="card-img-top" alt="Peace Lily"><div class="card-body"><h4>Peace Lily</h4><p>Graceful and leafy.</p><strong>$24.99</strong></div></div></div>
-    <div class="col-md-6 col-lg-4"><div class="card plant-card h-100"><img src="assets/images/pothos.svg" class="card-img-top" alt="Pothos"><div class="card-body"><h4>Golden Pothos</h4><p>Trailing and forgiving.</p><strong>$17.99</strong></div></div></div>
-    <div class="col-md-6 col-lg-4"><div class="card plant-card h-100"><img src="assets/images/zz-plant.svg" class="card-img-top" alt="ZZ Plant"><div class="card-body"><h4>ZZ Plant</h4><p>Glossy leaves and low care.</p><strong>$22.99</strong></div></div></div>
-    <div class="col-md-6 col-lg-4"><div class="card plant-card h-100"><img src="assets/images/rubber-plant.svg" class="card-img-top" alt="Rubber Plant"><div class="card-body"><h4>Rubber Plant</h4><p>A bold indoor statement.</p><strong>$27.99</strong></div></div></div>
-</div>
-</div>
-</section>
-
-<section class="py-5 bg-light">
-<div class="container">
-<div class="section-heading text-center"><p class="section-subtitle">FEATURED PLANT</p><h2>Monstera Growth & Care</h2></div>
-<div class="row align-items-center g-4">
-<div class="col-lg-6">
-    <video class="w-100 rounded shadow" controls poster="assets/images/monstera.svg">
-        <source src="https://www.pexels.com/download/video/4508110/" type="video/mp4">
-        Your browser does not support the video element.
-    </video>
-    <p class="small text-muted mt-2">Sample local video slot. Replace the included placeholder with your own MP4 if desired.</p>
-</div>
-<div class="col-lg-6">
-    <div class="plant-detail-card">
-        <h3>Monstera Deliciosa</h3>
-        <ul class="custom-plant-list">
-            <li><strong>Plant sizes:</strong> Small, Medium, Large</li>
-            <li><strong>Light:</strong> Bright to medium indirect light</li>
-            <li><strong>Water:</strong> Water when the top 2–3 inches of soil dry</li>
-            <li><strong>Toxicity:</strong> Toxic if chewed by pets</li>
-            <li><strong>Repotting:</strong> Usually every 1–2 years as roots outgrow the pot</li>
+  <nav class="navbar navbar-expand-lg navbar-dark bg-success">
+    <div class="container"><a class="navbar-brand fw-bold" href="index.html">Blooming Oasis</a><button
+        class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#menu"><span
+          class="navbar-toggler-icon"></span></button>
+      <div class="collapse navbar-collapse" id="menu">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+          <li class="nav-item"><a class="nav-link active" href="products.html">Products</a></li>
+          <li class="nav-item"><a class="nav-link" href="about.html">About Us</a></li>
+          <li class="nav-item"><a class="nav-link" href="contact.html">Contact Us</a></li>
         </ul>
-        <div class="row g-2 mb-3">
-            <div class="col-md-6"><select id="plantSize" class="form-select"><option>Small</option><option selected>Medium</option><option>Large</option></select></div>
-            <div class="col-md-6"><select id="potAddon" class="form-select"><option value="0">No pot / stand</option><option value="12">Ceramic pot +$12</option><option value="25">Pot + stand +$25</option></select></div>
-        </div>
-        <button id="addToCart" class="btn btn-success w-100"><i class="bi bi-cart-plus"></i> Add to Cart</button>
-        <div id="cartMessage" class="alert alert-success mt-3 d-none"></div>
+      </div>
     </div>
-</div>
-</div>
-</div>
-</section>
-
-<section class="py-5">
-<div class="container">
-<div class="section-heading"><p class="section-subtitle">COMMUNITY</p><h2>Plant Parent Tips</h2><p>Share your care experience with fellow plant parents.</p></div>
-<div class="row g-4">
-<div class="col-md-6"><div class="tip-card"><h5><i class="bi bi-chat-heart"></i> Maya's Monstera Tip</h5><p>"I rotate my Monstera every week so each side gets even light."</p></div></div>
-<div class="col-md-6"><div class="tip-card"><h5><i class="bi bi-chat-heart"></i> Daniel's Pothos Tip</h5><p>"Letting the top layer of soil dry helped me avoid overwatering."</p></div></div>
-</div>
-<form id="tipForm" class="mt-4">
-<div class="row g-3">
-<div class="col-md-4"><input id="tipName" class="form-control" placeholder="Your name" required></div>
-<div class="col-md-8"><input id="tipText" class="form-control" placeholder="Share your plant-care tip" required></div>
-<div class="col-12"><button class="btn btn-outline-success" type="submit">Share Tip</button></div>
-</div>
-</form>
-<div id="tipResult" class="mt-3"></div>
-</div>
-</section>
-
-<footer class="footer"><div class="container text-center"><h4>Blooming Oasis</h4><p>Bring nature indoors.</p><p class="small mb-0">&copy; 2026 Blooming Oasis.</p></div></footer>
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
-<script src="assets/js/script.js"></script>
+  </nav>
+  <div class="date-bar"><span id="dateTime"></span></div>
+  <header class="page-title">
+    <div class="container">
+      <h1>Our Products</h1>
+      <p>Choose a plant for your home.</p>
+    </div>
+  </header>
+  <section class="py-5">
+    <div class="container">
+      <div class="row g-4">
+        <div class="col-md-4">
+          <div class="card h-100"><img src="assets/images/monstera.svg" class="card-img-top" alt="Monstera">
+            <div class="card-body">
+              <h4>Monstera</h4>
+              <p>Tropical plant with large leaves.</p><strong>$29.99</strong>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="card h-100"><img src="assets/images/snake.svg" class="card-img-top" alt="Snake Plant">
+            <div class="card-body">
+              <h4>Snake Plant</h4>
+              <p>Low-maintenance indoor plant.</p><strong>$19.99</strong>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="card h-100"><img src="assets/images/peace-lily.svg" class="card-img-top" alt="Peace Lily">
+            <div class="card-body">
+              <h4>Peace Lily</h4>
+              <p>Green leaves and white flowers.</p><strong>$24.99</strong>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section class="py-5 bg-light">
+    <div class="container">
+      <h2>Featured Product: Monstera</h2>
+      <div class="row mt-3">
+        <div class="col-md-6">
+          <div class="video-placeholder">
+            <h4>Monstera Growth & Care Video</h4>
+            <p>Video placeholder for assessment.</p>
+          </div>
+        </div>
+        <div class="col-md-6">
+          <h3>Monstera Deliciosa</h3>
+          <ul class="custom-list">
+            <li>Size: Small, Medium, Large</li>
+            <li>Light: Bright indirect light</li>
+            <li>Water: When top soil becomes dry</li>
+            <li>Toxicity: Toxic if chewed by pets</li>
+            <li>Repotting: Every 1–2 years</li>
+          </ul>
+          <select id="plantSize" class="form-select mb-2">
+            <option>Small</option>
+            <option selected>Medium</option>
+            <option>Large</option>
+          </select>
+          <select id="addon" class="form-select mb-3">
+            <option>No pot or stand</option>
+            <option>Ceramic pot + $12</option>
+            <option>Pot and stand + $25</option>
+          </select>
+          <button id="cartButton" class="btn btn-success">Add to Cart</button>
+          <div id="cartMessage" class="mt-3"></div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section class="py-5">
+    <div class="container">
+      <h2>Plant Parent Tips</h2>
+      <div class="row g-3 mt-1">
+        <div class="col-md-6">
+          <div class="simple-box">
+            <h5>Rina's Tip</h5>
+            <p>Rotate your Monstera every week for even growth.</p>
+          </div>
+        </div>
+        <div class="col-md-6">
+          <div class="simple-box">
+            <h5>Alex's Tip</h5>
+            <p>Always check the soil before watering.</p>
+          </div>
+        </div>
+      </div>
+      <form id="tipForm" class="mt-4">
+        <div class="row g-2">
+          <div class="col-md-4"><input id="tipName" class="form-control" placeholder="Your name" required></div>
+          <div class="col-md-8"><input id="tipText" class="form-control" placeholder="Your plant tip" required></div>
+        </div><button class="btn btn-outline-success mt-2">Share Tip</button>
+      </form>
+      <div id="tipResult" class="mt-3"></div>
+    </div>
+  </section>
+  <footer>
+    <div class="container text-center">
+      <p class="mb-0">© 2026 Blooming Oasis | Online Plant Store</p>
+    </div>
+  </footer>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="assets/js/script.js"></script>
 </body>
+
 </html>
